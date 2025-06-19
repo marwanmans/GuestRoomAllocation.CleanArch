@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestRoomAllocation.CleanArch", "GuestRoomAllocation.CleanArch.csproj", "{75969777-D0C0-402E-A9B2-B41569678FF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestRoomAllocation.Application", "..\GuestRoomAllocation.Application\GuestRoomAllocation.Application.csproj", "{2952153B-2E60-4020-8B9F-65EE7F69DA7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestRoomAllocation.Domain", "..\GuestRoomAllocation.Domain\GuestRoomAllocation.Domain.csproj", "{28F5D1D3-EED2-49D9-9F90-F89E419FEF54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestRoomAllocation.Infrastructure", "..\GuestRoomAllocation.Infrastructure\GuestRoomAllocation.Infrastructure.csproj", "{171F3783-0E6A-4227-9C2F-AC3D5E2E8370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestRoomAllocation.Persistence", "..\GuestRoomAllocation.Persistence\GuestRoomAllocation.Persistence.csproj", "{12043C9E-05D5-4F01-99F0-ABC5BEEC76F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestRoomAllocation.Web", "..\GuestRoomAllocation.Web\GuestRoomAllocation.Web.csproj", "{0FE86DF1-D106-426C-8CD1-D2320CFEDB08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75969777-D0C0-402E-A9B2-B41569678FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75969777-D0C0-402E-A9B2-B41569678FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75969777-D0C0-402E-A9B2-B41569678FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75969777-D0C0-402E-A9B2-B41569678FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2952153B-2E60-4020-8B9F-65EE7F69DA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2952153B-2E60-4020-8B9F-65EE7F69DA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2952153B-2E60-4020-8B9F-65EE7F69DA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2952153B-2E60-4020-8B9F-65EE7F69DA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F5D1D3-EED2-49D9-9F90-F89E419FEF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F5D1D3-EED2-49D9-9F90-F89E419FEF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F5D1D3-EED2-49D9-9F90-F89E419FEF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F5D1D3-EED2-49D9-9F90-F89E419FEF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171F3783-0E6A-4227-9C2F-AC3D5E2E8370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171F3783-0E6A-4227-9C2F-AC3D5E2E8370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171F3783-0E6A-4227-9C2F-AC3D5E2E8370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171F3783-0E6A-4227-9C2F-AC3D5E2E8370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12043C9E-05D5-4F01-99F0-ABC5BEEC76F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12043C9E-05D5-4F01-99F0-ABC5BEEC76F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12043C9E-05D5-4F01-99F0-ABC5BEEC76F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12043C9E-05D5-4F01-99F0-ABC5BEEC76F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE86DF1-D106-426C-8CD1-D2320CFEDB08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE86DF1-D106-426C-8CD1-D2320CFEDB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE86DF1-D106-426C-8CD1-D2320CFEDB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE86DF1-D106-426C-8CD1-D2320CFEDB08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F080D786-EE45-4DA0-80A1-560C481B6C76}
+	EndGlobalSection
+EndGlobal
